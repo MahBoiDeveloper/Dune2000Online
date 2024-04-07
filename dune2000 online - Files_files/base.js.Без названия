@@ -1,0 +1,38 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+(function(){if(typeof Object.create!=='function'){Object.create=(function(){function F(){}
+return function(o){F.prototype=o;return new F();};})();}
+Array.max=function(array){return Math.max.apply(Math,array);};Array.min=function(array){return Math.min.apply(Math,array);};Function.prototype.deferFn=function(){var __method=this,args=Array.prototype.slice.call(arguments,0);return window.setTimeout(function(){return __method.apply(__method,args);},0.01);};if(typeof(window.webs)==='undefined'){window.webs={};}
+webs.showPremiumDialog=function(feature){var popover=new Popover('/s/sitebuilder/requiresPremium?feature='+feature,{heading:'Upgrade Today!',width:800,height:650});popover.show();};})();
+
+}
+/*
+     FILE ARCHIVED ON 20:04:05 May 09, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:30:07 Apr 06, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.82
+  exclusion.robots: 0.09
+  exclusion.robots.policy: 0.078
+  cdx.remote: 0.066
+  esindex: 0.01
+  LoadShardBlock: 90.343 (3)
+  PetaboxLoader3.datanode: 60.689 (4)
+  PetaboxLoader3.resolve: 196.776 (2)
+  load_resource: 190.791
+*/

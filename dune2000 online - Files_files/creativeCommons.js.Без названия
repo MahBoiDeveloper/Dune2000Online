@@ -1,0 +1,37 @@
+var _____WB$wombat$assign$function_____ = function(name) {return (self._wb_wombat && self._wb_wombat.local_init && self._wb_wombat.local_init(name)) || self[name]; };
+if (!self.__WB_pmw) { self.__WB_pmw = function(obj) { this.__WB_source = obj; return this; } }
+{
+  let window = _____WB$wombat$assign$function_____("window");
+  let self = _____WB$wombat$assign$function_____("self");
+  let document = _____WB$wombat$assign$function_____("document");
+  let location = _____WB$wombat$assign$function_____("location");
+  let top = _____WB$wombat$assign$function_____("top");
+  let parent = _____WB$wombat$assign$function_____("parent");
+  let frames = _____WB$wombat$assign$function_____("frames");
+  let opener = _____WB$wombat$assign$function_____("opener");
+
+if(!window.webs){window.webs={};}
+define(['jquery','translate!webs.creativecommons.attribution'],function($,translateCC){webs.page=webs.page||{};webs.page.addCCImage=function(ccImage,selector,toggleEvent){var ccImages=webs.page.ccImages;if(!ccImages){ccImages=webs.page.ccImages=[];$(function(){var createAttributionLink=function(img){return '<a target="_blank" href="'+img.url+'">'+img.artist+'</a>';};var cc=$('<div/>').attr('id','webs-cc').append($('<div/>',{'id':'webs-cc-mark'})).appendTo(selector||'body');cc.on(toggleEvent||'mouseenter',function(){if($('#webs-cc-full').length===0){var attrList=$.map(ccImages,createAttributionLink).join(' ');$('<div/>').attr('id','webs-cc-full').append($('<p/>').html(translateCC('webs.creativecommons.attribution.message'))).append($('<p/>').html(translateCC('webs.creativecommons.attribution.photosby')+' '+attrList)).appendTo(cc);cc.addClass('over');}});});}
+ccImages.push(ccImage);};});
+
+}
+/*
+     FILE ARCHIVED ON 20:04:05 May 09, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 20:30:11 Apr 06, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 1.05
+  exclusion.robots: 0.106
+  exclusion.robots.policy: 0.093
+  cdx.remote: 0.131
+  esindex: 0.013
+  LoadShardBlock: 87.644 (3)
+  PetaboxLoader3.datanode: 80.928 (5)
+  PetaboxLoader3.resolve: 109.655 (3)
+  load_resource: 120.684 (2)
+*/
